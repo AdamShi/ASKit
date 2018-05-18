@@ -106,10 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				4BF7BA8C1F15EFD2009F1282 /* AppDelegate */,
-				4BF7BA8F1F15EFD2009F1282 /* Bussiness */,
-				4BF7BA901F15EFD2009F1282 /* Library */,
-				4BF7BA911F15EFD2009F1282 /* Resources */,
-				4BF7BA921F15EFD2009F1282 /* WebService */,
 				4BF7BA621F15D069009F1282 /* Main.storyboard */,
 				4BF7BA651F15D069009F1282 /* Assets.xcassets */,
 				4BF7BA671F15D069009F1282 /* LaunchScreen.storyboard */,
@@ -152,58 +148,6 @@
 				4BF7BA8E1F15EFD2009F1282 /* AppDelegate.m */,
 			);
 			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		4BF7BA8F1F15EFD2009F1282 /* Bussiness */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Bussiness;
-			sourceTree = "<group>";
-		};
-		4BF7BA901F15EFD2009F1282 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				4BF7BA941F1640B6009F1282 /* Utilities */,
-				4BF7BA951F1640B6009F1282 /* Vendor_3rd */,
-				4BF7BA961F1640B6009F1282 /* Views */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		4BF7BA911F15EFD2009F1282 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		4BF7BA921F15EFD2009F1282 /* WebService */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WebService;
-			sourceTree = "<group>";
-		};
-		4BF7BA941F1640B6009F1282 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		4BF7BA951F1640B6009F1282 /* Vendor_3rd */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendor_3rd;
-			sourceTree = "<group>";
-		};
-		4BF7BA961F1640B6009F1282 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		B8C4C861FB58AA9D3E4F9B8D /* Frameworks */ = {
