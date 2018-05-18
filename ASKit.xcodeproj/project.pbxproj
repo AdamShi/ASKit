@@ -80,6 +80,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B9CF9F020AEBE3C002F6493 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B9CF9F120AEBE3C002F6493 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		4B9CF9F220AEBE3C002F6493 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		4B9CF9F320AEBE3C002F6493 /* Bussiness */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bussiness;
+			sourceTree = "<group>";
+		};
 		4BF7BA4D1F15D069009F1282 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				4BF7BA8C1F15EFD2009F1282 /* AppDelegate */,
+				4B9CF9F320AEBE3C002F6493 /* Bussiness */,
+				4B9CF9F120AEBE3C002F6493 /* Library */,
+				4B9CF9F020AEBE3C002F6493 /* Resources */,
+				4B9CF9F220AEBE3C002F6493 /* WebService */,
 				4BF7BA621F15D069009F1282 /* Main.storyboard */,
 				4BF7BA651F15D069009F1282 /* Assets.xcassets */,
 				4BF7BA671F15D069009F1282 /* LaunchScreen.storyboard */,
