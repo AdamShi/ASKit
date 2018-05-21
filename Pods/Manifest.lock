@@ -17,10 +17,40 @@ PODS:
   - FMDB (2.6.2):
     - FMDB/standard (= 2.6.2)
   - FMDB/standard (2.6.2)
+  - FSPagerView (0.7.1)
+  - Hero (1.1.0)
   - IQKeyboardManager (4.0.9)
+  - JKCategories (1.6)
+  - libwebp (0.6.0):
+    - libwebp/core (= 0.6.0)
+    - libwebp/dec (= 0.6.0)
+    - libwebp/demux (= 0.6.0)
+    - libwebp/dsp (= 0.6.0)
+    - libwebp/enc (= 0.6.0)
+    - libwebp/mux (= 0.6.0)
+    - libwebp/utils (= 0.6.0)
+    - libwebp/webp (= 0.6.0)
+  - libwebp/core (0.6.0):
+    - libwebp/webp
+  - libwebp/dec (0.6.0):
+    - libwebp/core
+  - libwebp/demux (0.6.0):
+    - libwebp/core
+  - libwebp/dsp (0.6.0):
+    - libwebp/core
+  - libwebp/enc (0.6.0):
+    - libwebp/core
+  - libwebp/mux (0.6.0):
+    - libwebp/core
+  - libwebp/utils (0.6.0):
+    - libwebp/core
+  - libwebp/webp (0.6.0)
   - Masonry (1.0.2)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -31,30 +61,64 @@ PODS:
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
+  - SDWebImage/WebP (4.0.0):
+    - libwebp
+    - SDWebImage/Core
   - SVProgressHUD (2.1.2)
+  - UIViewAdditions (1.0.0)
 
 DEPENDENCIES:
   - AFNetworking
   - FMDB
+  - FSPagerView
+  - Hero
   - IQKeyboardManager
+  - JKCategories
   - Masonry
   - MJExtension
   - MJRefresh
-  - ReactiveCocoa (~> 2.5)
+  - NVActivityIndicatorView
+  - ReactiveCocoa
   - SDWebImage
+  - SDWebImage/WebP
   - SVProgressHUD
+  - UIViewAdditions
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - FMDB
+    - FSPagerView
+    - Hero
+    - IQKeyboardManager
+    - JKCategories
+    - libwebp
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - NVActivityIndicatorView
+    - ReactiveCocoa
+    - SDWebImage
+    - SVProgressHUD
+    - UIViewAdditions
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FSPagerView: 958aba39684e1573755ddcfcc29f7eebb8413cee
+  Hero: ce59e81c79390613d97b43da7179e2c5e1017e04
   IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  JKCategories: dab1bd3f7500836c5066d09052b85c12a963db12
+  libwebp: 1d5a07c2eb97f9c31bd5f154bb82efc0ea67c6a2
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  UIViewAdditions: b35c38dd787949168f56c429cd341a55fbaba917
 
-PODFILE CHECKSUM: 8d96c655ce4ed0d19b5709100202bfb52e4c96b5
+PODFILE CHECKSUM: 10dfc94a132ebed44c1153bbf3fdfea89e945946
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.0

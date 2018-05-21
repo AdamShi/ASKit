@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B69D3F320B2B272007DA1B6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B69D3F120B2B272007DA1B6 /* Reachability.m */; };
 		4BF7BA5B1F15D069009F1282 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7BA5A1F15D069009F1282 /* main.m */; };
 		4BF7BA641F15D069009F1282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7BA621F15D069009F1282 /* Main.storyboard */; };
 		4BF7BA661F15D069009F1282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7BA651F15D069009F1282 /* Assets.xcassets */; };
@@ -14,7 +15,7 @@
 		4BF7BA741F15D069009F1282 /* ASKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7BA731F15D069009F1282 /* ASKitTests.m */; };
 		4BF7BA7F1F15D069009F1282 /* ASKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7BA7E1F15D069009F1282 /* ASKitUITests.m */; };
 		4BF7BA931F15EFD2009F1282 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7BA8E1F15EFD2009F1282 /* AppDelegate.m */; };
-		E79E4D0D1A01263BB9F63F05 /* libPods-ASKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1C8FFC2C3210B144082435 /* libPods-ASKit.a */; };
+		EF437DC73044F5A8BF237197 /* Pods_ASKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 287F88BAC4C738923C3B670F /* Pods_ASKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		287F88BAC4C738923C3B670F /* Pods_ASKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B69D3F120B2B272007DA1B6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4B69D3F220B2B272007DA1B6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4B69D43220B2BA49007DA1B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4BF7BA561F15D069009F1282 /* ASKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF7BA5A1F15D069009F1282 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BF7BA631F15D069009F1282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,7 +56,6 @@
 		4BF7BA8E1F15EFD2009F1282 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		67748E78E4C3FF60897A3FF3 /* Pods-ASKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASKit/Pods-ASKit.release.xcconfig"; sourceTree = "<group>"; };
 		7692899619433E1ACDEFCB77 /* Pods-ASKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASKit/Pods-ASKit.debug.xcconfig"; sourceTree = "<group>"; };
-		8E1C8FFC2C3210B144082435 /* libPods-ASKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E79E4D0D1A01263BB9F63F05 /* libPods-ASKit.a in Frameworks */,
+				EF437DC73044F5A8BF237197 /* Pods_ASKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B69D3F020B2B272007DA1B6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				4B69D3F120B2B272007DA1B6 /* Reachability.m */,
+				4B69D3F220B2B272007DA1B6 /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 		4B9CF9F020AEBE3C002F6493 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +103,7 @@
 		4B9CF9F120AEBE3C002F6493 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				4B69D3F020B2B272007DA1B6 /* Reachability */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -151,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				4BF7BA5A1F15D069009F1282 /* main.m */,
+				4B69D43220B2BA49007DA1B6 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -185,7 +200,7 @@
 		B8C4C861FB58AA9D3E4F9B8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8E1C8FFC2C3210B144082435 /* libPods-ASKit.a */,
+				287F88BAC4C738923C3B670F /* Pods_ASKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,7 +226,6 @@
 				4BF7BA531F15D069009F1282 /* Frameworks */,
 				4BF7BA541F15D069009F1282 /* Resources */,
 				0599DFC8AD7DE4A4F7CD2F04 /* [CP] Embed Pods Frameworks */,
-				1AE08EB937FC8DB494725654 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -340,28 +354,44 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ASKit/Pods-ASKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JKCategories/JKCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/UIViewAdditions/UIViewAdditions.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIViewAdditions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASKit/Pods-ASKit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1AE08EB937FC8DB494725654 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASKit/Pods-ASKit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2C91D6B52A000F35BFE373A2 /* [CP] Check Pods Manifest.lock */ = {
@@ -370,13 +400,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -387,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BF7BA931F15EFD2009F1282 /* AppDelegate.m in Sources */,
+				4B69D3F320B2B272007DA1B6 /* Reachability.m in Sources */,
 				4BF7BA5B1F15D069009F1282 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,6 +572,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9F45UG9ER;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ASKit/PrefixHeader.pch;
 				INFOPLIST_FILE = ASKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -552,6 +588,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A9F45UG9ER;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ASKit/PrefixHeader.pch;
 				INFOPLIST_FILE = ASKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
