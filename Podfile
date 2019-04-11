@@ -12,13 +12,15 @@ target ‘ASKit’ do
     pod 'MJRefresh'
     pod 'MJExtension'
     pod 'IQKeyboardManager'
-    pod 'UIViewAdditions'
+    pod 'DZNEmptyDataSet'               #空数据
+    pod 'YYCache'
+    #pod 'UIViewAdditions'
     #pod 'FDFullscreenPopGesture'        #全屏侧滑手势
-    pod 'JKCategories'                  #category大全
+    #pod 'JKCategories'                  #category大全
     
     #Swift语言库
     pod 'Hero'                          #转场动画
     pod 'FSPagerView'                   #轮播图
-    pod 'NVActivityIndicatorView'       #加载动画
+    #pod 'NVActivityIndicatorView'       #加载动画
     pod 'ReactiveCocoa'
 end
