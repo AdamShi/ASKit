@@ -24,6 +24,7 @@
     self.tabBarController = [[ASTabBarViewController alloc] init];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+    NSLog(@"test");
     return YES;
 }
 
